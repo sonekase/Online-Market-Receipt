@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.12.4.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Marketplace</h1>
+      <form id="name">
+        <div class="form-group">
+          <label for="name1">first name:</label>
+          <input id="name1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="name2">last name:</label>
+          <input id="name2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="street-address">street address:</label>
+          <input id="street-address" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="city">city:</label>
+          <input id="city" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="state">state</label>
+          <input id="state" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="zip-code">zipcode</label>
+          <input id="zip-code" class="form-control" type="text">
+        </div>
+
+
+        <button type="submit" class="btn">Submit!</button>
+
+      </form>
+
+      <div id="collected-data">
+        <!-- Name:<br><span id="user-name"></span><br>
+        Address:<br><span id="user-street"></span><br>
+        <p></p> -->
+        <p><span id="user-name"></span>, thank you for shopping at our online marketplace. Your order will be shipped to the following address:<br>
+        <span id="user-street"></span><br>
+        Please come back again with this 15% off code: <strong>THANKYOU15</strong>
+      </p>
+
+      </div>
+
+    </div>
+  </body>
+</html>
